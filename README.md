@@ -30,9 +30,13 @@ Java와 Spring으로 서비스를 만들고,<br>
 
 ### Selected Projects
 
-#### [Futsal Hub — 백엔드 도메인 설계](https://github.com/SJM-coding/futsal-hub-architecture)
+#### FUTSALHUB — 풋살 대회 플랫폼
 
-풋살 대회 개설부터 모집·대진·정산까지 다루는 서비스의 설계 문서입니다.
+풋살 대회 개설부터 모집·대진·정산까지 다루는 서비스입니다.
+
+> 현재 운영 중인 서비스로, 소스 코드는 비공개입니다. 백엔드 구조와 주요 설계 결정은 공개 설계 문서에서 확인할 수 있습니다.
+
+[설계 문서 보기](https://github.com/SJM-coding/futsal-hub-architecture)
 
 - 모듈러 모놀리스에서 도메인 이벤트와 포트로 컨텍스트 연결
 - 참가 신청·청구·결제를 상태 전이와 이벤트로 연결
@@ -40,9 +44,11 @@ Java와 Spring으로 서비스를 만들고,<br>
 
 `Java` `Spring Boot` `JPA` `MySQL` `Redis` `DDD`
 
-#### [Meaire — Outbox와 메시지 재처리](https://github.com/SJM-coding/Backend)
+#### Meaire — Outbox와 메시지 재처리
 
 데이터 정합성을 공부하며 Outbox 패턴과 Kafka 재처리 흐름을 적용한 프로젝트입니다.
+
+[코드 보기 · Fork](https://github.com/SJM-coding/Backend)
 
 - Outbox 이벤트 적재와 폴링 기반 처리
 - 재시도·백오프 및 멱등 키를 고려한 메시지 처리
