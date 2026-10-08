@@ -55,6 +55,18 @@ SK쉴더스 루키즈에서 진행한 10인의 팀프로젝트 이후 데이터 
 
 `Outbox Pattern` `Kafka` `Retry` `Idempotency`
 
+#### Log2Doc — 로그 분석·에러 보고서 자동화
+
+로그를 분석해 보고서를 생성하고, 웹에서 에러 리포트와 처리 상태를 관리하는 팀 프로젝트입니다.
+
+[Frontend](https://github.com/SKRookiesMiniProject3/Frontend) · [Backend](https://github.com/SKRookiesMiniProject3/Backend)
+
+- React 기반 에러 리포트 조회·상태 관리 및 통계 대시보드
+- Spring Boot API와 Flask 분석 서비스 연동
+- LangChain 기반 LLM 로그 분석과 보고서 생성 자동화
+
+`React` `Vite` `Zustand` `Spring Boot` `Flask` `LangChain`
+
 ### Writing
 
 개발하면서 고민한 내용은 [기술 블로그](https://velog.io/@dobbyisfreee/posts)에 정리합니다.
