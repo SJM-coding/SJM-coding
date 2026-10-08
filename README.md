@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm SJM 👋
+# Hi, I'm SJM 
 
 **Backend · Web · iOS**
 
